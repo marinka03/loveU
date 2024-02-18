@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(250, 196, 241);
+  background-color:#FFF9FE;
   margin: 0;
 }
 .wrapper {
@@ -13,7 +13,7 @@ body {
 .text-container {
   width: 100%;
   background-color: black;
-  color: pink;
+  color: rgb(250, 202, 210);
   font-weight: 600;
   padding: 10px 0;
   font-family: monospace;
@@ -34,7 +34,7 @@ body {
   width: 95px;
   height: 160px;
   border-radius: 50px 50px 20px 20px;
-  background-color: gray;
+  background-color: #E4F6F8;
 }
 .eye {
   position: absolute;
@@ -91,7 +91,7 @@ body {
   height: 24px;
   border-radius: 10px 20px 20px 10px;
   transform: rotate(-10deg);
-  background-color: darkgray;
+  background-color: #DEEFF1;
 }
 .legs {
   position: absolute;
@@ -122,13 +122,13 @@ body {
   animation-duration: 2s;
 }
 .leg4 {
-  background-color: gray;
+  background-color: #E4F6F8;
   position: absolute;
   bottom: -6px;
   right: 28px;
 }
 .leg5 {
-  background-color: gray;
+  background-color: #E4F6F8;
   position: absolute;
   width: 15px;
   bottom: -11px;
@@ -140,7 +140,7 @@ body {
 .shadow {
   width: 86px;
   height: 12px;
-  background-color: #686666;
+  background-color: #C5CBCB;
   position: absolute;
   bottom: -30px;
   border-radius: 50%;
