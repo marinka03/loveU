@@ -5,8 +5,8 @@ const message = document.getElementById('message');
 ghost.addEventListener('click', onClick);
 
 function onClick(evt) {
-  if (message.style.opacity) {
-    return (message.style.opacity = '0');
+  if (message.style.visibility === 'visible') {
+    return (message.style.visibility = 'hidden');
   }
-  return (message.style.opacity = '1');
+  return (message.style.visibility = 'visible');
 }

@@ -181,7 +181,7 @@ body {
   padding: 10px;
   border: 2px solid gray;
   border-radius: 16px;
-  opacity: 0;
+  visibility: hidden;
 }
 
 @keyframes pulse {
