@@ -11,15 +11,15 @@
     "liveServer.settings.CustomBrowser": "chrome",
     "liveServer.settings.host": "localhost",
     "liveServer.settings.fullReload": true,
-    "liveServer.settings.root": "./src/index.html",
+    "liveServer.settings.root": "./dist/index.html",
     "liveServer.settings.port": 3000,
     "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.https": {
-      "enable": true, //set it true to enable the feature.
-      "cert": "C:\\https\\primary.crt", //full path of the certificate
-      "key": "C:\\https\\private.key", //full path of the private key
-      "passphrase": "12345"
-      },
+    // "liveServer.settings.https": {
+    //   "enable": true, //set it true to enable the feature.
+    //   "cert": "C:\\https\\primary.crt", //full path of the certificate
+    //   "key": "C:\\https\\private.key", full path of the private key//
+    //   "passphrase": "12345"
+    //   },
     "liveServer.settings.wait": 100
   }
 //   file:///C:/Users/user/Documents/GitHub/loveU/src/index.html
